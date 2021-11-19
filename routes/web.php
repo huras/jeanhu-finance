@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [DashboardController::class, 'dashboard']);
+Route::get('/history', [DashboardController::class, 'history']);
